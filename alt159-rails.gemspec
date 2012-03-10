@@ -7,16 +7,13 @@ require "alt159-rails/version"
 Gem::Specification.new do |s|
   s.name        = "alt159-rails"
   s.version     = Alt159Rails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Alt159Rails."
-  s.description = "TODO: Description of Alt159Rails."
+  s.authors     = ["Micah Woods"]
+  s.email       = ["micahwoods@gmail.com"]
+  s.homepage    = "https://github.com/mwoods79/ALT159-rails"
+  s.summary     = "Easily Add ALT159 to a rails app"
+  s.description = "Easily Add ALT159 to a rails app"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["{vendor,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
 
-  s.add_dependency "rails", "~> 3.2.2"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails", ">= 3.2"
 end
